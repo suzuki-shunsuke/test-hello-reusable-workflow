@@ -87,7 +87,7 @@ Unfortunately, [the discussion](https://github.com/orgs/community/discussions/25
 
 So we will create a new discussion.
 
-## Workarond
+## Workaround
 
 A workaround is to fork Reusable workflows to your GitHub Organizations, but it isn't ideal.
 
