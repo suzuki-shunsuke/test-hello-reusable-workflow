@@ -1,0 +1,22 @@
+name: Test
+on:
+  pull_request: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  test-github-hosted-runner:
+    uses: suzuki-shunsuke/hello-reusable-workflow/.github/workflows/hello.yaml@4d45c8dba568207710036908955f0608be508320
+    permissions: {}
+    with:
+      runs-on: >-
+        ["ubuntu-latest"]
+
+  test-self-hosted-runner:
+    uses: suzuki-shunsuke/hello-reusable-workflow/.github/workflows/hello.yaml@4d45c8dba568207710036908955f0608be508320
+    permissions: {}
+    with:
+      # PLEASE CHANGE THIS TO YOUR SELF-HOSTED RUNNER LABEL
+      runs-on: >-
+        ["ubuntu-latest"]
