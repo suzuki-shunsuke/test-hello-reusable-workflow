@@ -87,6 +87,10 @@ Unfortunately, [the discussion](https://github.com/orgs/community/discussions/25
 
 So we will create a new discussion.
 
+## Workarond
+
+A workaround is to fork Reusable workflows to your GitHub Organizations, but it isn't ideal.
+
 ## Is the restriction appropriate?
 
 ```
@@ -98,7 +102,6 @@ But I'm not sure if the restriction is appropriate in terms of security.
 I'm not sure why we can run third party actions in Self-hosted Runners but can't run Reusable workflows.
 
 Due to this restriction, we can't fully utilize reusable workflows as OSS.
-A workaround is to fork Reusable workflows to your GitHub Organizations, but it isn't ideal.
 
 ## LICENSE
 
